@@ -14,6 +14,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // GitHub Pages не поддерживает Next.js Image Optimization
   },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
 };
 
 export default withNextIntl(nextConfig);

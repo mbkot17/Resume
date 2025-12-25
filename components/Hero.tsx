@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import { getAssetPath } from '@/lib/paths';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -53,7 +54,7 @@ export default function Hero() {
         >
           <div className="relative w-full h-full photo-overlay">
             <Image
-              src="/images/photo-main.jpg"
+              src={getAssetPath('images/photo-main.jpg')}
               alt="Marina Kotelevskaya"
               fill
               className="object-cover rounded-lg bw-photo-strong transition-all duration-500 group-hover:opacity-80"

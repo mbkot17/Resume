@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import Image from 'next/image';
+import { getAssetPath } from '@/lib/paths';
 
 export default function About() {
   const t = useTranslations('about');
@@ -79,7 +80,7 @@ export default function About() {
             
             <div className="relative w-full h-full overflow-hidden rounded-sm photo-overlay">
               <Image
-                src="/images/photo-secondary.jpg"
+                src={getAssetPath('images/photo-secondary.jpg')}
                 alt=""
                 fill
                 className="object-cover bw-photo transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-105"
