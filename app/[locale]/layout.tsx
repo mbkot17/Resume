@@ -19,7 +19,17 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Marina Kotelevskaya - Senior SAP ERP/BI Consultant - Integration Solutions & Automation Specialist",
-  description: "Senior SAP Consultant specializing in integration architecture and enterprise solutions",
+  description: "Senior SAP ERP/BI Consultant specializing in integration architecture, automation, and enterprise solutions.",
+  openGraph: {
+    title: "Marina Kotelevskaya - Senior SAP ERP/BI Consultant",
+    description: "Integration Solutions & Automation Specialist with expertise in SAP ERP/BI.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Marina Kotelevskaya - Senior SAP ERP/BI Consultant",
+    description: "Integration Solutions & Automation Specialist",
+  },
 };
 
 export function generateStaticParams() {
