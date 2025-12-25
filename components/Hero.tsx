@@ -114,16 +114,18 @@ export default function Hero() {
             <div className="text-[var(--primary)]">
               <span className="whitespace-nowrap">{t('surname')}</span>
               <br />
-              <span className="whitespace-nowrap">{t('name')}</span>
+              <span className="whitespace-nowrap">
+                {t('name')}
+                <motion.span
+                  className="lime-text ml-4"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.6 }}
+                >
+                  •
+                </motion.span>
+              </span>
             </div>
-            <motion.span
-              className="lime-text ml-4"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
-            >
-              •
-            </motion.span>
           </motion.h1>
           
           {/* Decorative line accent with lime */}
