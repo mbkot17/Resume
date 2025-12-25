@@ -1,0 +1,273 @@
+{
+  "common": {
+    "language": "Language",
+    "openToRelocation": "Open to business trips and relocation",
+    "viewPortfolio": "View Portfolio",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "name": "Marina Kotelevskaya",
+    "title": "Senior SAP Consultant",
+    "subtitle": "Integration Solutions & Automation Specialist",
+    "description": "Designing and implementing comprehensive integration solutions for enterprise systems. Expertise in process engineering, test automation, and database optimization.",
+    "location": "Moscow, Russia",
+    "citizenship": "Citizenship: Russia, Israel",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "About",
+    "decorativeText": "ABOUT",
+    "subtitle": "Strategic Expertise",
+    "finalBadge": "Systems Thinking & Integration",
+    "description": "Lead SAP ERP/BI consultant in enterprise integration and automation with extensive experience in high-load retail landscapes.\n\nI take full responsibility for the end-to-end solution lifecycle: from gathering and structuring business requirements, systems analysis, and prototyping to estimation, planning, development of integrations and services, all types of testing (functional, integration, regression, performance), deployment, and production rollout.\n\nMy focus is on reliable and scalable integration solutions between SAP ERP, the POS landscape, and external systems: REST/SOAP APIs, message queues, IDoc, bgRFC, and event-driven approaches. I design asynchronous data flows with a focus on fault tolerance, data integrity, performance, and real-world operational scenarios.",
+    "description2": "My core strength lies in systems thinking and engineering discipline. I build solution architectures from requirements to production: modeling target processes and interactions (BPMN, EPC, IDEF0/IDEF3), creating architectural and technical specifications, evaluating alternatives and constraints, and ensuring transparent documentation (Confluence, Swagger/OpenAPI).\n\nI place significant emphasis on quality and reproducibility: test automation, advanced Postman (collections, JavaScript-based auto-tests, monitors), CI/CD, monitoring, and alerting. I excel at bringing solutions to a production-ready state, including the optimization of performance, data, and integration processes.\n\nIn addition to enterprise projects, I develop practical web services and Telegram bots — ranging from rapid MVPs to integration services tailored to specific business processes, enabling quick hypothesis testing and reduced time-to-market.",
+    "description3": "Systems analysis is a key competency: I have the ability to listen to the business, formalize requirements, define the target state, and guide implementation through to stable production operation."
+  },
+  "achievements": {
+    "title": "Key Achievements",
+    "integration": {
+      "title": "Comprehensive Integration Solutions",
+      "description": "Designing and implementing enterprise integrations between heterogeneous systems. Applying modern integration patterns: Event-Driven Architecture, API Gateway, Message Queue, Circuit Breaker. Working with ABAP for POSDW, BGRFC, IDOC interfaces (WPUTAB, WPUUMS, WBBDLD). Ensuring reliability and scalability of solutions."
+    },
+    "processes": {
+      "title": "Process Engineering",
+      "description": "Developing and implementing development, testing, and monitoring processes. Configuring CI/CD pipelines, monitoring systems and alerting, Git infrastructure in corporate environments. Systematic approach to workflow optimization."
+    },
+    "automation": {
+      "title": "Test Automation",
+      "description": "Developing U.T.A. (Unseen Test Agent) platform for unifying testing lifecycle. Creating comprehensive test suites and automated processes. Integration with CI/CD for continuous testing."
+    },
+    "databases": {
+      "title": "Database Expertise",
+      "description": "Designing and optimizing databases: SAP HANA, SQL Server, PostgreSQL, MongoDB. Developing efficient data schemas, optimizing complex SQL queries, configuring indexes, designing ETL processes. Selecting optimal solutions for specific requirements."
+    },
+    "refactoring": {
+      "title": "Business Process Refactoring",
+      "description": "Comprehensive refactoring of critical business processes: optimizing POS frontend interactions, refactoring order fulfillment and returns processes, optimizing cache data with migration to asynchronous services (BGRFC), enhancing aggregation processes. Improving system performance and reliability."
+    },
+    "performance": {
+      "title": "Performance and Optimization",
+      "description": "Designing systems with focus on performance. Developing solution for circular data reconciliation between POS servers and SAP ERP: transitioning from multi-day processes to real-time synchronization. Designing asynchronous services based on BGRFC, optimizing queries and processes for handling large data volumes."
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "current": "Present",
+    "toolsLabel": "Technologies and Tools",
+    "positions": {
+      "pgsoft": {
+        "company": "PG Soft",
+        "location": "Texas",
+        "position": "Lead ERP Consultant/Developer",
+        "period": "Apr 2024 – Present",
+        "responsibilities": [
+          "Designed solution concept for implementing microservice for production order management as part of the project",
+          "Developed and implemented inventory forecast model",
+          "Developed integrations with other system modules",
+          "Led functional and integration testing of projects"
+        ],
+        "tools": "ABAP, JavaScript, Postman, Swagger, SAP (ERP), SQL, Python, Draw.io, PowerShell, SoapUI, WSDL, SQL Server"
+      },
+      "detmir_senior": {
+        "company": "Detzky Mir",
+        "location": "Moscow",
+        "position": "Senior SAP ERP/BI Consultant",
+        "period": "Jun 2024 – Present",
+        "responsibilities": [
+          "Designed and implemented comprehensive integration solutions between SAP and external systems",
+          "Developed technical and project solutions, applied modern integration patterns",
+          "Established development processes: configured Git infrastructure, CI/CD pipelines, monitoring systems",
+          "Designed and optimized database schemas (SAP HANA, SQL Server)",
+          "Created U.T.A. platform for test automation and QA process unification",
+          "Developed microservices and API solutions using modern architectural patterns",
+          "Led technical decisions and coordinated work of development and testing teams",
+          "Optimized and refactored existing solutions to improve performance and reliability"
+        ],
+        "tools": "ABAP, JavaScript, Postman, Swagger, ZPL, Profi-T, SAP (ERP, BI, HANA, BW), SQL, Python, Draw.io, PowerShell, Jira, TestIT, SoapUI, WSDL, SQL Server, Git, CI/CD, Monitoring Systems"
+      },
+      "detmir_junior": {
+        "company": "Detzky Mir",
+        "location": "Moscow",
+        "position": "Junior SAP ERP/BI Consultant",
+        "period": "Oct 2022 – Jun 2023",
+        "responsibilities": [
+          "Analyzed issues related to incidents in production system",
+          "Wrote functional specifications and transferred them to ABAP development",
+          "Tested developments",
+          "Debugged and developed interfaces via API and PI",
+          "Enhanced project solutions for SD/MM modules"
+        ],
+        "tools": "ABAP, TestIT, SAP (ERP, BI), SQL, Python, Draw.io, PowerShell, Jira, JavaScript, Profi-T"
+      },
+      "ranepa": {
+        "company": "RANEPA",
+        "location": "Moscow",
+        "position": "Project Lead",
+        "period": "2022",
+        "note": "Winner of the National Projects Competition at the XIII Gaidar Forum",
+        "responsibilities": [
+          "Created startup prototype in the field of ecology",
+          "Managed project team as team leader",
+          "Built and calculated economic and functional models of the project",
+          "Developed project website (landing page)",
+          "Conducted load testing of the economic model",
+          "Calculated project investment metrics (NPV, IRR, PI, DPP, DP, ARR, ROI)"
+        ],
+        "tools": "Mathematics, VBA, SQL, Draw.io"
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "sap": "SAP Ecosystem",
+      "integration": "Integration & APIs",
+      "programming": "Programming Languages",
+      "databases": "Databases",
+      "testing": "Testing & QA",
+      "patterns": "Integration Patterns",
+      "devops": "DevOps & Infrastructure",
+      "project_management": "Project Management",
+      "analytics": "Analytics & Visualization",
+      "documentation": "Documentation",
+      "tracking": "Time Tracking",
+      "ide": "Development Environment",
+      "version_control": "Version Control",
+      "messaging": "Message Queues",
+      "tools": "Tools"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "viewAll": "View Other Projects",
+    "items": {
+      "consignment": {
+        "title": "One Product — Multiple Suppliers",
+        "description": "Introduction of consignment inventory into sales processes",
+        "keyPoints": [
+          "Refactored POS integrations",
+          "Improved sales and movement reporting",
+          "Moved item catalog calculation to bgRFC",
+          "Ran full test cycles"
+        ]
+      },
+      "virtual_pos": {
+        "title": "Internet Orders via Virtual POS",
+        "description": "Split finance flows for retail vs online sales",
+        "keyPoints": [
+          "Built HANA→ERP direct data flow",
+          "Created integration order report",
+          "End-to-end integration testing"
+        ]
+      },
+      "mir_certificate": {
+        "title": "Electronic Certificate (MIR)",
+        "description": "Development and implementation of new payment instrument for entire store network",
+        "keyPoints": [
+          "SAP side identifiers flow",
+          "POS API integration with MIR",
+          "New pricing conditions; partial payments and returns support"
+        ]
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "items": {
+      "innopolis": {
+        "degree": "MSc",
+        "field": "Data Analytics and Computer Science",
+        "university": "University of Innopolis",
+        "location": "Innopolis",
+        "period": "2024–2026",
+        "track": "Track: Software Architect",
+        "language": "Language: English"
+      },
+      "ranepa": {
+        "degree": "BSc (Double Degree)",
+        "field": "Applied Mathematics + Economics",
+        "university": "RANEPA",
+        "location": "Moscow",
+        "period": "2020–2024"
+      }
+    }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "items": {
+      "sql": "SQL for Data Science — UC Davis (2021)",
+      "ml": "Mathematics for Machine Learning — Imperial College London (2022)",
+      "analytics": "Data Analytics in the Public Sector — University of Michigan (2022)",
+      "econometrics": "Econometrics: Methods and Applications — Erasmus University Rotterdam (2023)"
+    }
+  },
+  "languages": {
+    "title": "Languages",
+    "english": "English — Upper-Intermediate",
+    "russian": "Russian — Upper-Intermediate",
+    "slovenian": "Slovenian — Intermediate"
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "+7 916 403-73-22",
+    "email": "mkotelevskaya@icloud.com",
+    "relocation": "Open to business trips and relocation",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "telegramLabel": "Telegram"
+  },
+  "additional": {
+    "title": "Additional",
+    "telegram-bots": {
+      "title": "Telegram Bots",
+      "description": "Extensive experience developing multiple Telegram bots with various functionality. Create bots for business process automation, integration with external systems, and improving user experience.",
+      "details": [
+        "Developing bots for workflow automation",
+        "Integrating bots with various service APIs",
+        "Creating interactive interfaces using buttons and menus",
+        "Implementing complex business logic and data processing",
+        "Optimizing performance and scalability"
+      ],
+      "technologies": ["Python", "Node.js", "JavaScript", "Telegram Bot API", "Webhooks", "REST API"]
+    },
+    "web-services": {
+      "title": "Web Services",
+      "description": "Experience developing full-featured web services with modern architecture. Create scalable solutions using best development practices.",
+      "details": [
+        "Developing RESTful and SOAP web services",
+        "Designing APIs using OpenAPI/Swagger",
+        "Implementing authentication and authorization",
+        "Performance optimization and caching",
+        "Integration with databases and external systems"
+      ],
+      "technologies": ["Node.js", "Python", "JavaScript", "TypeScript", "REST API", "SOAP", "OpenAPI", "Swagger"]
+    },
+    "postman": {
+      "title": "Advanced Postman",
+      "description": "Deep Postman knowledge extends beyond basic usage. Use Postman for comprehensive development, testing, monitoring, and API documentation in JavaScript.",
+      "details": [
+        "Developing automated tests in JavaScript within Postman",
+        "Creating and configuring monitors for API tracking",
+        "Developing collections and environments for different stages",
+        "Creating comprehensive API documentation with examples",
+        "Using variables, pre-request scripts, and test scripts",
+        "Integration with CI/CD processes"
+      ],
+      "technologies": ["Postman", "JavaScript", "API Testing", "API Monitoring", "API Documentation", "CI/CD"]
+    },
+    "publication": {
+      "title": "Scientific Publication",
+      "description": "Publication at an international conference on applying optimization methods to software engineering metrics selection.",
+      "details": [
+        "Topic: Software engineering metrics selection using equilibrium optimizer and differential evolution",
+        "Conference: 19th International KES Conference AMSTA-25",
+        "Applying optimization methods for metrics selection",
+        "Research on effectiveness of various algorithms"
+      ],
+      "technologies": ["Python", "ML", "Statistics and Mathematics"]
+    }
+  }
+}
+
