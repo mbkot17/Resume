@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="text-center">
           <div className="editorial-small">
             <span className="text-[var(--muted)]">© {new Date().getFullYear()} </span>
-            <span className="lime-text">Marina Kotelevskaya</span>
+            <span className="lime-text whitespace-nowrap">Marina Kotelevskaya</span>
             <span className="text-[var(--muted)]">. All rights reserved.</span>
           </div>
           <div className="editorial-divider mt-8" />

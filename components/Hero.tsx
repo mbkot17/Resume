@@ -105,7 +105,8 @@ export default function Hero() {
 
           {/* Main name - large serif typography with lime accent */}
           <motion.h1
-            className="font-serif text-7xl sm:text-8xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-bold mb-6 leading-[1.1] tracking-tight break-words"
+            className="font-serif text-7xl sm:text-8xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-bold mb-6 leading-[1.1] tracking-tight"
+            style={{ wordBreak: 'keep-all', hyphens: 'none' }}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
