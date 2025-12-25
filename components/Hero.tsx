@@ -111,7 +111,11 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            <span className="text-[var(--primary)]">{t('name')}</span>
+            <div className="text-[var(--primary)]">
+              <span className="whitespace-nowrap">{t('surname')}</span>
+              <br />
+              <span className="whitespace-nowrap">{t('name')}</span>
+            </div>
             <motion.span
               className="lime-text ml-4"
               initial={{ opacity: 0 }}

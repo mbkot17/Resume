@@ -7,7 +7,8 @@
     "downloadCV": "Download CV"
   },
   "hero": {
-    "name": "Marina\u00A0Kotelevskaya",
+    "surname": "Kotelevskaya",
+    "name": "Marina",
     "title": "Senior SAP Consultant",
     "subtitle": "Integration Solutions & Automation Specialist",
     "description": "Designing and implementing comprehensive integration solutions for enterprise systems. Expertise in process engineering, test automation, and database optimization.",
