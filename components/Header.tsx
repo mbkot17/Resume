@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/lib/routing';
-import LanguageSwitcher from './LanguageSwitcher';
 import TableOfContents from './TableOfContents';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import { useState } from 'react';
@@ -43,7 +42,7 @@ export default function Header() {
             >
               {t('viewPortfolio')}
             </Link>
-            <LanguageSwitcher />
+            {/* temporarily hidden */}
           </div>
         </div>
       </nav>
