@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/lib/routing';
 import LanguageSwitcher from './LanguageSwitcher';
+import TableOfContents from './TableOfContents';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import { useState } from 'react';
 
@@ -23,21 +24,26 @@ export default function Header() {
       transition={{ duration: 0.3 }}
     >
       <nav className="border-b border-[var(--divider)]">
-        <div className="container mx-auto px-6 sm:px-8 lg:px-12 max-w-[var(--content-max-width)] py-4 flex items-center justify-between">
+        <div className="w-full px-6 sm:px-8 lg:px-10 py-4 flex items-center justify-between gap-4">
           <Link 
             href="/" 
-            className="font-serif text-2xl font-bold text-[var(--primary)] hover:lime-text transition-colors"
+            className="font-serif text-2xl font-bold text-[var(--primary)] hover:lime-text transition-colors shrink-0"
           >
             MK<span className="lime-text">•</span>
           </Link>
-          <div className="flex items-center gap-8">
+          
+          <div className="flex-1 flex justify-center overflow-x-auto no-scrollbar">
+            <TableOfContents />
+          </div>
+
+          <div className="flex items-center gap-6 shrink-0">
             <Link 
               href="/portfolio" 
-              className="text-sm text-[var(--muted)] uppercase tracking-wider hover:lime-text transition-colors"
-          >
-            {t('viewPortfolio')}
-          </Link>
-          <LanguageSwitcher />
+              className="text-xs sm:text-sm lime-text font-medium uppercase tracking-wider hover:text-[var(--primary)] transition-colors whitespace-nowrap"
+            >
+              {t('viewPortfolio')}
+            </Link>
+            <LanguageSwitcher />
           </div>
         </div>
       </nav>

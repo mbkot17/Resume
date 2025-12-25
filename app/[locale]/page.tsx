@@ -17,15 +17,33 @@ export default function HomePage() {
       <Header />
       <main className="pt-16">
         <Hero />
-        <About />
-        <Achievements />
-        <Experience />
-        <Skills />
-        <Startup />
-        <Projects />
-        <Education />
-        <Additional />
-        <Contact />
+        <section id="about">
+          <About />
+        </section>
+        <section id="achievements">
+          <Achievements />
+        </section>
+        <section id="experience">
+          <Experience />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="startup">
+          <Startup />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="education">
+          <Education />
+        </section>
+        <section id="additional">
+          <Additional />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
       </main>
       <Footer />
     </>

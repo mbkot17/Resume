@@ -6,6 +6,17 @@
     "contact": "Контакты",
     "downloadCV": "Скачать резюме"
   },
+  "navigation": {
+    "about": "О себе",
+    "achievements": "Достижения",
+    "experience": "Опыт",
+    "skills": "Навыки",
+    "startup": "Стартап",
+    "projects": "Проекты",
+    "education": "Образование",
+    "additional": "Дополнительно",
+    "contact": "Контакты"
+  },
   "hero": {
     "surname": "Котелевская",
     "name": "Марина",

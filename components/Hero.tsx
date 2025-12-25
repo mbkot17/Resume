@@ -80,7 +80,7 @@ export default function Hero() {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.4, delay: 1.6, type: "spring" }}
-            />
+        />
           </div>
         </motion.div>
       </div>
@@ -115,7 +115,7 @@ export default function Hero() {
               <span className="whitespace-nowrap">{t('surname')}</span>
               <br />
               <span className="whitespace-nowrap">
-                {t('name')}
+            {t('name')}
                 <motion.span
                   className="lime-text ml-4"
                   initial={{ opacity: 0 }}

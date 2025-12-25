@@ -6,6 +6,17 @@
     "contact": "Contact",
     "downloadCV": "Download CV"
   },
+  "navigation": {
+    "about": "About",
+    "achievements": "Achievements",
+    "experience": "Experience",
+    "skills": "Skills",
+    "startup": "Startup",
+    "projects": "Projects",
+    "education": "Education",
+    "additional": "Additional",
+    "contact": "Contact"
+  },
   "hero": {
     "surname": "Kotelevskaya",
     "name": "Marina",

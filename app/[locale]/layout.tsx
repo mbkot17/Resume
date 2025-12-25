@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Marina Kotelevskaya - Senior SAP Consultant - Integration Solutions & Automation Specialist",
+  title: "Marina Kotelevskaya - Senior SAP ERP/BI Consultant - Integration Solutions & Automation Specialist",
   description: "Senior SAP Consultant specializing in integration architecture and enterprise solutions",
 };
 

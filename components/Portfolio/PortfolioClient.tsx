@@ -73,12 +73,12 @@ export default function PortfolioClient() {
               <span className="lime-text ml-2">•</span>
             </div>
             <h1 className="editorial-h1 mb-6 text-[var(--primary)]">
-              Портфолио проектов
-            </h1>
+            Портфолио проектов
+          </h1>
             <div className="editorial-line-accent-lime mb-6" />
             <p className="editorial-body text-[var(--foreground)] max-w-3xl">
-              Комплексные интеграционные решения и автоматизация процессов для корпоративных систем
-            </p>
+            Комплексные интеграционные решения и автоматизация процессов для корпоративных систем
+          </p>
           </div>
         </motion.div>
 
